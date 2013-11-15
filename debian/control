@@ -1,0 +1,12 @@
+Source: teamcity
+Section: 
+Priority: optional
+Maintainer: Matthias Schmitz <matthias@sigxcpu.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+
+Package: teamcity
+Architecture: all
+Description: TeamCity bundled with tomcat
+ TeamCity ci server with bundled tomcat.
+
