@@ -7,7 +7,7 @@ Create package for RHEL/CentOS
 The spec file creates a rpm package from the Teamcity + Tomcat bundle. 
 
 First download the bundle from jetbrains website e.g.
-      wget http://download.jetbrains.com/teamcity/TeamCity-8.0.4.tar.gz
+        wget http://download.jetbrains.com/teamcity/TeamCity-8.0.5.tar.gz
 and put it into the SOURCES folder (normally ~/rpmbuild/SOURCES/).
 
 Then run rpmbuild to build the package
