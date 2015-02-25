@@ -6,6 +6,6 @@
 
     <groupId>jetbrains</groupId>
     <artifactId>teamcity</artifactId>
-    <version>8.1.5-1.el7.centos.noarch</version>
+    <version>9.0.2-1.el7.centos.noarch</version>
     <packaging>rpm</packaging>
 </project>
