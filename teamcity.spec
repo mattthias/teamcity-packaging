@@ -1,6 +1,6 @@
 Summary: Jetbrains TeamCity ci server with bundled tomcat
 Name: teamcity
-Version: 8.1.5
+Version: 9.0.4
 Release: 1%{?dist}
 SOURCE0: TeamCity-%{version}.tar.gz
 
@@ -29,7 +29,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n teamcity
 /opt/teamcity/*
 
-%changelog]
+%changelog
+* Thu Jun 25 2015 Matthias Schmitz <matthias@sigxcpu.org>
+- Update version to TeamCity 9.0.4
+
 * Fri Sep 26 2014 Sean Sube <seansube@gmail.com>
 - Update version to TeamCity 8.1.5
 
