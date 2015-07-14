@@ -14,7 +14,7 @@ and put it into the SOURCES folder (normally ~/rpmbuild/SOURCES/).
 
 Then run rpmbuild to build the package
 
-      rpmbuild -ba teamcity.spec
+      rpmbuild -bb teamcity.spec
 
 
 Create package for Debian/Ubuntu
