@@ -8,7 +8,7 @@ The spec file creates a rpm package from the Teamcity + Tomcat bundle.
 
 First download the bundle from jetbrains website e.g.
       
-      wget https://download.jetbrains.com/teamcity/TeamCity-9.0.5.tar.gz
+      wget https://download.jetbrains.com/teamcity/TeamCity-9.1.3.tar.gz
 
 and put it into the SOURCES folder (normally ~/rpmbuild/SOURCES/).
 
